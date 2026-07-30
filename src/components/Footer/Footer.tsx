@@ -20,8 +20,6 @@ const Footer = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
 
-          {/* Company */}
-
           <div>
 
             <h2 className="text-3xl font-bold">
@@ -54,7 +52,6 @@ const Footer = () => {
 
           </div>
 
-          {/* Quick Links */}
 
           <div>
 
@@ -113,7 +110,6 @@ const Footer = () => {
 
           </div>
 
-          {/* Services */}
 
           <div>
 
@@ -173,7 +169,6 @@ const Footer = () => {
 
         </div>
 
-        {/* Bottom */}
 
         <div className="border-t border-slate-700 mt-12 pt-6 text-center text-gray-500 text-sm">
           © 2024 UIKey Services. All Rights Reserved.

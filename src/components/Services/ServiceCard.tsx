@@ -16,12 +16,12 @@ const ServiceCard = ({
 
       <div className="flex items-start gap-3">
 
-        {/* Icon */}
+    
         <div className="w-12 h-12 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
           <Icon className="text-violet-700 text-xl" />
         </div>
 
-        {/* Right Side */}
+        
         <div className="flex-1">
 
           <h3 className="text-xl font-semibold text-slate-900">

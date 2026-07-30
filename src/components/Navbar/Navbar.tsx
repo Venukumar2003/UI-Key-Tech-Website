@@ -1,18 +1,19 @@
 import { FaArrowRight } from "react-icons/fa";
 
 import { Link } from "react-scroll";
+import logo from "../../assets/images/main_logo.jpeg"
 
 const Navbar = () => {
   return (
     <header className="sticky top-0 bg-white shadow-sm z-50">
       <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
-        {/* Logo */}
+     
         <div className="flex items-center gap-2">
 
-          <div className="w-10 h-10 rounded-full bg-purple-700 text-white flex items-center justify-center font-bold">
-            U
-          </div>
+          <img src={logo} alt="logo" className="w-10 h-10 rounded-full bg-purple-700 text-white flex items-center justify-center font-bold" />
+            
+          
 
           <h2 className="text-xl font-bold text-purple-700">
             UIkey Services
@@ -20,7 +21,7 @@ const Navbar = () => {
 
         </div>
 
-        {/* Navigation Links */}
+
 
         <ul className="flex items-center gap-10 ">
 
@@ -69,7 +70,6 @@ const Navbar = () => {
           </li>
 
         </ul>
-        {/* Contact Button */}
 
         <Link to="testimonials">
         <button

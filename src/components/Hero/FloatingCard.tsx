@@ -17,13 +17,12 @@ const FloatingCard = ({
     <div
       className={`absolute bg-white rounded-2xl shadow-lg p-2 w-52 flex items-start gap-4 ${className}`}
     >
-      {/* Icon */}
+
 
       <div className="w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
         <Icon className="text-violet-700 text-xl" />
       </div>
 
-      {/* Text */}
 
       <div>
         <h3 className="font-semibold text-[17px]">{title}</h3>

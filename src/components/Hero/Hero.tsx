@@ -7,12 +7,15 @@ import {
 } from "react-icons/fa";
 
 import qrImage from "../../assets/images/qr.png"
+// import qrImage from "../../assets/images/qrcode.png"
+
+import apni_digi from "../../assets/images/apni_digi.png"
 
 import FloatingCard from "./FloatingCard";
 
 import FeatureStrip from "./FeatureStrip";
 
-import { Link } from "react-scroll";
+import {Link} from "react-scroll"
 
 
 const Hero = () => {
@@ -106,9 +109,9 @@ const Hero = () => {
                     </p>
 
                     {/* Bottom */}
-
+{/* 
                     <div className="absolute bottom-1 w-[250px] bg-white rounded-b-[24px] py-3 rounded-3xl mt-12px">
-
+                        <img src={apni_digi} alt="apni_digi" className="w-10 h-10 flex justify-center object-cover" />
                         <p className="text-center text-gray-500 text-sm">
                             Powered by
                         </p>
@@ -117,7 +120,28 @@ const Hero = () => {
                             Apni Digi
                         </h3>
 
-                    </div>
+                    </div> */}
+
+                    {/* Bottom */}
+<div className="absolute bottom-1 w-[250px] bg-white rounded-b-[24px] py-3 rounded-3xl">
+
+  <p className="text-center text-gray-500 text-sm">
+    Powered by
+  </p>
+
+  <div className="flex items-center justify-center gap-2 -ml-10">
+    <img
+      src={apni_digi}
+      alt="Apni Digi"
+      className="w-10 h-10 object-fit"
+    />
+
+    <h3 className="font-semibold text-lg text-black">
+      Apni Digi
+    </h3>
+  </div>
+
+</div>
 
 
 
