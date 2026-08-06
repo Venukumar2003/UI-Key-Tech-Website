@@ -13,7 +13,6 @@ const About = () => {
 
             <div className="max-w-[1200px] mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
-                {/* Left */}
 
                 <div className="relative">
 
@@ -31,8 +30,6 @@ const About = () => {
                             <div className="w-12 h-12 rounded-full bg-violet-500/60 flex items-center justify-center flex-shrink-0">
                                 <FaUsers className="text-white text-xl" />
                             </div>
-
-                            {/* Text */}
 
                             <div>
 
@@ -58,7 +55,6 @@ const About = () => {
 
                 </div>
 
-                {/* Right */}
 
                 <div>
 

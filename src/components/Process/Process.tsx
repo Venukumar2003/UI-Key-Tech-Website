@@ -9,7 +9,6 @@ const Process = () => {
 
         <div className="grid lg:grid-cols-5 gap-8 items-start">
 
-          {/* Left */}
 
           <div className="lg:col-span-1 w-[400px]">
 
@@ -27,7 +26,6 @@ const Process = () => {
 
           </div>
 
-          {/* Right */}
 
           <div className="w-[800px] lg:col-span-4 grid md:grid-cols-2 lg:grid-cols-4 gap-1 ml-40">
 
