@@ -3,14 +3,14 @@ import {processData} from "./ProcessData";
 
 const Process = () => {
   return (
-    <section id="process" className="bg-[#F8F6FD] py-10">
+    <section id="process" className="bg-[#F8F6FD] py-10 sm:py-10 lg:py-16 px-4 sm:px-6">
 
-      <div className="max-w-[1200px] mx-auto px-4">
+      <div className="w-full max-w-[1200px] mx-auto px-4">
 
         <div className="grid lg:grid-cols-5 gap-8 items-start">
 
 
-          <div className="lg:col-span-1 w-[400px]">
+          <div className="lg:col-span-1 w-full">
 
             <span className="inline-block bg-violet-100 text-violet-700 text-xs uppercase font-semibold px-4 py-2 rounded-full">
               How We Work
@@ -27,7 +27,7 @@ const Process = () => {
           </div>
 
 
-          <div className="w-[800px] lg:col-span-4 grid md:grid-cols-2 lg:grid-cols-4 gap-1 ml-40">
+          <div className="w-full lg:col-span-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
 
             {processData.map((item) => (
               <ProcessCard

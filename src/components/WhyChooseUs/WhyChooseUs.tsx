@@ -3,11 +3,11 @@ import { WhyChooseUsData } from "./WhyChooseUsData";
 
 const WhyChooseUs = () => {
   return (
-    <section className="bg-[#F8F6FD]">
+    <section className="bg-[#F8F6FD] py-10 sm:py-12 lg:py-16 px-4 sm:px-6">
 
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="w-full max-w-7xl mx-auto px-4">
 
-        <div className="grid lg:grid-cols-5 gap-8 items-center">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
 
           <div className="lg:col-span-2">
 
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
           </div>
 
 
-          <div className="w-[750px] lg:col-span-3 grid grid-cols-2 md:grid-cols-4 gap-2">
+          <div className="w-full lg:col-span-3 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2">
 
             {WhyChooseUsData.map((item, index) => (
               <WhyChooseUsCard

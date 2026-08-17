@@ -3,9 +3,9 @@ import {services} from "./ServiceData";
 
 const Services = () => {
   return (
-    <section id="services" className="bg-[#F8F6FD] py-2">
+    <section id="services" className="bg-[#F8F6FD] py-2 sm:py-12 lg:py-16 px-4 sm:px-6">
 
-      <div className="max-w-[1200px] mx-auto px-4">
+      <div className="w-full max-w-[1200px] mx-auto px-4">
 
         <div className="text-center">
 
@@ -23,7 +23,7 @@ const Services = () => {
 
         </div>
 
-        <div className="w-[1200px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-14">
+        <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10 sm:mt-12 lg:mt-14">
 
           {services.map((service) => (
             <ServiceCard

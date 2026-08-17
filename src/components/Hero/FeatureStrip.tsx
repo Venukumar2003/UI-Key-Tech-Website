@@ -9,8 +9,11 @@ import FeatureCard from "./FeatureCard";
 
 const FeatureStrip = () => {
   return (
-    <section className=" mb-2 w-[790px]">
-      <div className=" max-w-6xl mx-auto bg-white rounded-2xl shadow-lg grid grid-cols-4 gap-4 px-6 py-5">
+    <section className="w-full">
+
+      <div
+        className="w-full bg-white rounded-2xl shadow-lg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 lg:gap-8 px-5 sm:px-6 lg:px-8 py-5 sm:py-6 "
+      >
 
         <FeatureCard
           icon={FaLightbulb}
@@ -37,6 +40,7 @@ const FeatureStrip = () => {
         />
 
       </div>
+
     </section>
   );
 };

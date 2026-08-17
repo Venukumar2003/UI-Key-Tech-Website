@@ -11,26 +11,34 @@ const FloatingCard = ({
   icon: Icon,
   title,
   description,
-  className,
+  className = "",
 }: FloatingCardProps) => {
   return (
     <div
-      className={`absolute bg-white rounded-2xl shadow-lg p-2 w-52 flex items-start gap-4 ${className}`}
+      className={`absolute bg-white rounded-2xl shadow-lg p-3 sm:p-4 w-[190px] sm:w-[208px] items-start gap-3 ${className}`}
     >
 
+      {/* Icon */}
 
-      <div className="w-10 h-10 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0">
-        <Icon className="text-violet-700 text-xl" />
+      <div
+        className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-violet-100 flex items-center justify-center flex-shrink-0"
+      >
+        <Icon className="text-violet-700 text-lg sm:text-xl" />
       </div>
 
 
-      <div>
-        <h3 className="font-semibold text-[17px]">{title}</h3>
+      <div className="min-w-0">
 
-        <p className="text-sm text-gray-500 mt-2 leading-6">
+        <h3 className="font-semibold text-sm sm:text-[15px]">
+          {title}
+        </h3>
+
+        <p className="text-xs sm:text-sm text-gray-500 mt-1 leading-5">
           {description}
         </p>
+
       </div>
+
     </div>
   );
 };

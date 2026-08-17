@@ -14,10 +14,10 @@ const MissionCard = ({
   iconBg,
 }: MissionCardProps) => {
   return (
-    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-3 flex items-start gap-4 -ml-15">
+    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-3 flex items-start gap-4">
 
       <div
-        className={`w-10 h-10 min-w-[40px] rounded-full ${iconBg} flex items-center justify-center flex-shrink-0`}
+        className={`w-10 h-10 min-w-[30px] rounded-full ${iconBg} flex items-center justify-center flex-shrink-0`}
       >
         <Icon className="text-white text-lg" />
       </div>

@@ -11,12 +11,12 @@ import {
 } from "react-icons/fa";
 
 
-import { services } from "./FooterData";
+import { services ,socialLinks} from "./FooterData";
 const Footer = () => {
   return (
     <footer className="bg-slate-900 text-white pt-16 pb-6 py-2">
 
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="w-full max-w-7xl mx-auto px-4">
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
 
@@ -32,23 +32,47 @@ const Footer = () => {
 
             <div className="flex gap-3 mt-6">
 
-              <div className="w-10 h-10 rounded-full bg-violet-700 flex items-center justify-center cursor-pointer hover:bg-violet-600">
-                <FaFacebookF />
-              </div>
+  {/* Facebook */}
+  <a
+    href={socialLinks.facebook}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full bg-violet-700 flex items-center justify-center cursor-pointer hover:bg-violet-600 transition"
+  >
+    <FaFacebookF />
+  </a>
 
-              <div className="w-10 h-10 rounded-full bg-violet-700 flex items-center justify-center cursor-pointer hover:bg-violet-600">
-                <FaInstagram />
-              </div>
+  {/* Instagram */}
+  <a
+    href={socialLinks.instagram}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full bg-violet-700 flex items-center justify-center cursor-pointer hover:bg-violet-600 transition"
+  >
+    <FaInstagram />
+  </a>
 
-              <div className="w-10 h-10 rounded-full bg-violet-700 flex items-center justify-center cursor-pointer hover:bg-violet-600">
-                <FaLinkedinIn />
-              </div>
+  {/* LinkedIn */}
+  <a
+    href={socialLinks.linkedin}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full bg-violet-700 flex items-center justify-center cursor-pointer hover:bg-violet-600 transition"
+  >
+    <FaLinkedinIn />
+  </a>
 
-              <div className="w-10 h-10 rounded-full bg-violet-700 flex items-center justify-center cursor-pointer hover:bg-violet-600">
-                <FaWhatsapp />
-              </div>
+  {/* WhatsApp */}
+  <a
+    href={socialLinks.whatsapp}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 rounded-full bg-violet-700 flex items-center justify-center cursor-pointer hover:bg-violet-600 transition"
+  >
+    <FaWhatsapp />
+  </a>
 
-            </div>
+</div>
 
           </div>
 

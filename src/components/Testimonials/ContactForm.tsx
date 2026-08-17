@@ -11,7 +11,9 @@ const [message,setMessage] = useState("");
 
 
   return (
-    <div className="w-[550px] bg-white rounded-3xl shadow-lg p-8 border border-gray-100 ml-20">
+    <div className="w-full bg-white rounded-3xl shadow-lg p-8 border border-gray-100 p-5
+        sm:p-6
+        lg:p-8">
 
 
       <div className="flex justify-between items-start">

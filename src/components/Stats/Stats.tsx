@@ -9,7 +9,7 @@ import StatCard from "./StatCard";
 
 const Stats = () => {
   return (
-    <section id="stats" className="py-10 bg-[#F8F6FD]">
+    <section id="stats" className="py-10 bg-[#F8F6FD] sm:py-10 md:py-12 lg:py-14 px-4 sm:px-6">
 
       <div className="max-w-[1200px] mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
 

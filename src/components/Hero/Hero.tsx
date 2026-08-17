@@ -15,15 +15,15 @@ import FloatingCard from "./FloatingCard";
 
 import FeatureStrip from "./FeatureStrip";
 
-import {Link} from "react-scroll"
+import { Link } from "react-scroll"
 
 
 const Hero = () => {
     return (
         <section id="home" className="bg-[#F8F6FD] pt-3">
-            <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center pt-5">
+            <div className="w-full max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center pt-5">
 
-                <div>
+                <div className="w-full min-w-0">
 
                     <span className="inline-block bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-medium">
                         Digital Solutions for Education, Automation & Business Growth
@@ -69,9 +69,8 @@ const Hero = () => {
 
                     </div>
 
-                    {/* Feature Strip */}
 
-                    <div className="mt-16">
+                    <div className="mt-10 sm:mt-12 lg:mt-16">
                         <FeatureStrip />
                     </div>
 
@@ -80,7 +79,7 @@ const Hero = () => {
 
                 <div className="relative w-[280px] h-[450px] rounded-[24px] bg-gradient-to-b from-violet-600 to-purple-900 shadow-2xl flex flex-col items-center ml-40 mb-12">
 
-                    {/* Heading */}
+
 
                     <h2 className="mt-4 text-2xl font-bold text-purple-600 bg-white p-3 rounded-2xl">
                         UIkey Services
@@ -90,7 +89,6 @@ const Hero = () => {
                         Digital Solutions
                     </p>
 
-                    {/* QR */}
 
                     <div className="bg-white rounded-2xl p-4 mb-4 mt-2">
 
@@ -102,14 +100,14 @@ const Hero = () => {
 
                     </div>
 
-                    {/* Scan */}
+                
 
                     <p className="text-white  mb-2">
                         Scan to view our services
                     </p>
 
                     {/* Bottom */}
-{/* 
+                    {/* 
                     <div className="absolute bottom-1 w-[250px] bg-white rounded-b-[24px] py-3 rounded-3xl mt-12px">
                         <img src={apni_digi} alt="apni_digi" className="w-10 h-10 flex justify-center object-cover" />
                         <p className="text-center text-gray-500 text-sm">
@@ -123,38 +121,37 @@ const Hero = () => {
                     </div> */}
 
                     {/* Bottom */}
-<div className="absolute bottom-1 w-[250px] bg-white rounded-b-[24px] py-3 rounded-3xl">
+                    <div className="absolute bottom-1 w-[250px] bg-white rounded-b-[24px] py-3 rounded-3xl">
 
-  <p className="text-center text-gray-500 text-sm">
-    Powered by
-  </p>
+                        <p className="text-center text-gray-500 text-sm">
+                            Powered by
+                        </p>
 
-  <div className="flex items-center justify-center gap-2 -ml-10">
-    <img
-      src={apni_digi}
-      alt="Apni Digi"
-      className="w-10 h-10 object-fit"
-    />
+                        <div className="flex items-center justify-center gap-2 -ml-10">
+                            <img
+                                src={apni_digi}
+                                alt="Apni Digi"
+                                className="w-10 h-10 object-fit"
+                            />
 
-    <h3 className="font-semibold text-lg text-black">
-      Apni Digi
-    </h3>
-  </div>
-
-</div>
+                            <h3 className="font-semibold text-lg text-black">
+                                Apni Digi
+                            </h3>
+                        </div>
 
 
+                    </div>
 
-                    {/* Floating Card 1 */}
+
+
 
                     <FloatingCard
-                        className="-left-60 top-12"
+                        className="-left-55 top-12"
                         icon={FaCog}
                         title="Automation"
                         description="Streamline your business process."
                     />
 
-                    {/* Floating Card 2 */}
 
                     <FloatingCard
                         className="-right-55 top-10"
@@ -163,7 +160,6 @@ const Hero = () => {
                         description="Custom TDL for Tally & Business"
                     />
 
-                    {/* Floating Card 3 */}
 
                     <FloatingCard
                         className="-left-55 bottom-24"
@@ -171,7 +167,8 @@ const Hero = () => {
                         title="AI Solutions"
                         description="Smart AI Powered Innovation"
                     />
-                    {/* Floating Card 4 */}
+
+
                     <FloatingCard
                         className="-right-55 bottom-15"
                         icon={FaChartLine}

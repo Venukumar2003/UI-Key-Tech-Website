@@ -4,12 +4,12 @@ import ContactForm from "./ContactForm";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="bg-[#F8F6FD] py-10">
+    <section id="testimonials" className="bg-[#F8F6FD] sm:py-10 lg:py-4 px-4 sm:px-6">
 
-      <div className="max-w-7xl mx-auto px-2">
+      <div className="w-full max-w-7xl mx-auto px-2">
 
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-12 items-start">
 
 
           <div>
@@ -26,7 +26,7 @@ const Testimonials = () => {
               We value the trust our clients place in us and the results we deliver.
             </p>
 
-            <div className="w-[700px] gap-2 flex">
+            <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8">
               {testimonialsData.map((item) => (
                 <TestimonialCard
                   key={item.id}
@@ -40,7 +40,9 @@ const Testimonials = () => {
 
           </div>
 
-          <ContactForm />
+          <div className="w-full min-w-0">
+            <ContactForm />
+          </div>
 
         </div>
 
