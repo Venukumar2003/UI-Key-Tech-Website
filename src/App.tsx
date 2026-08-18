@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Process from "./components/Process/Process";
 import Testimonials from "./components/Testimonials/Testimonials";
+import ContactForm from "./components/Testimonials/ContactForm";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import Footer from "./components/Footer/Footer";
 
@@ -21,8 +22,9 @@ function App() {
       <About />
       <Services />
       <Process />
-      <Testimonials />
       <WhyChooseUs />
+      <Testimonials />
+     <ContactForm/>
       <Footer />
       
     </div>

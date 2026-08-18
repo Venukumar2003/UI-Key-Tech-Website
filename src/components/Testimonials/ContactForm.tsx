@@ -11,9 +11,7 @@ const [message,setMessage] = useState("");
 
 
   return (
-    <div className="w-full bg-white rounded-3xl shadow-lg p-8 border border-gray-100 p-5
-        sm:p-6
-        lg:p-8">
+    <div id= "contact" className="w-full max-w-7xl mx-auto bg-white rounded-3xl shadow-lg border border-gray-100 p-5 sm:p-6 lg:p-8 m-10">
 
 
       <div className="flex justify-between items-start">
@@ -83,7 +81,7 @@ const [message,setMessage] = useState("");
 
     
         <button
-          className="w-full mt-4 bg-gradient-to-r from-violet-700 to-purple-600 text-white font-semibold py-2 rounded-xl hover:opacity-90 transition"
+          className="w-full mt-4 bg-gradient-to-r from-violet-700 to-purple-600 text-white font-semibold py-2 rounded-xl hover:opacity-90 transition cursor-pointer"
         >
           Send Message →
         </button>

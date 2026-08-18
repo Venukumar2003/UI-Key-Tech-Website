@@ -20,4 +20,22 @@ export const testimonialsData = [
     review:
       "Very smooth experience! Their TDL customization helped reduce our workload by 70%.",
   },
+  {
+  id: 3,
+  name: "Amit Patel",
+  role: "Retail Manager",
+  image: image1,
+  review:
+    "The team provided excellent support and made our billing process much faster and easier to manage.",
+},
+
+{
+  id: 4,
+  name: "Priya Mehta",
+  role: "Business Consultant",
+  image: image2,
+  review:
+    "Great service and quick response! Their automation solutions saved us a lot of time every day.",
+},
+
 ];

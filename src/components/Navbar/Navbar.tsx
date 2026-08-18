@@ -131,6 +131,7 @@ const Navbar = () => {
                 <Link
                   to="home"
                   onClick={closeMenu}
+                  offset={-90}
                   className="font-bold cursor-pointer hover:text-violet-600 transition"
                   activeClass="text-violet-700 font-semibold"
                 >
@@ -142,6 +143,7 @@ const Navbar = () => {
                 <Link
                   to="services"
                   onClick={closeMenu}
+                  offset={-90}
                   className="font-bold cursor-pointer hover:text-violet-600 transition"
                   activeClass="text-violet-700 font-semibold"
                 >
@@ -153,6 +155,7 @@ const Navbar = () => {
                 <Link
                   to="about"
                   onClick={closeMenu}
+                  offset={-90}
                   className="font-bold cursor-pointer hover:text-violet-600 transition"
                   activeClass="text-violet-700 font-semibold"
                 >
@@ -164,6 +167,7 @@ const Navbar = () => {
                 <Link
                   to="testimonials"
                   onClick={closeMenu}
+                  offset={-90}
                   className="font-bold cursor-pointer hover:text-violet-600 transition"
                   activeClass="text-violet-700 font-semibold"
                 >
@@ -174,7 +178,8 @@ const Navbar = () => {
             </ul>
 
             <Link
-              to="testimonials"
+              to="contact"
+              offset={-90}
               className="ml-6 lg:ml-10"
               onClick={closeMenu}
             >
@@ -203,7 +208,7 @@ const Navbar = () => {
         <div
           className={`md:hidden overflow-hidden border-t border-gray-200 transition-all duration-500 ease-in-out
     ${menuOpen
-              ? "max-h-96 opacity-100"
+              ? "max-h-90 opacity-100"
               : "max-h-0 opacity-0"
             }
             `} >
@@ -257,7 +262,7 @@ const Navbar = () => {
 
             <li>
               <Link
-                to="testimonials"
+                to="contact"
                 onClick={closeMenu}
                 className="inline-block"
               >
