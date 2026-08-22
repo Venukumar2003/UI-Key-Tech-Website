@@ -23,7 +23,7 @@ const Footer = () => {
           <div>
 
             <h2 className="text-3xl font-bold">
-              UIKey Services
+              Uikey Services
             </h2>
 
             <p className="text-gray-400 mt-5 leading-7">

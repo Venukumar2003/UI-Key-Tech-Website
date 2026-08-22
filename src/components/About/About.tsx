@@ -22,7 +22,7 @@ const About = () => {
 
                     <img
                         src={teamImage}
-                        alt="UIKEY Services Team"
+                        alt="Uikey Services Team"
                         className="w-full h-[280px] sm:h-[350px] md:h-[400px] lg:h-[430px] object-cover rounded-2xl sm:rounded-3xl "
                     />
 
@@ -81,7 +81,7 @@ const About = () => {
                     <span
                         className="inline-block bg-violet-100 text-violet-700 uppercase text-[10px] sm:text-xs font-semibold tracking-wider px-3 sm:px-4 py-2 rounded-full "
                     >
-                        About UIKEY Services
+                        About Uikey Services
                     </span>
 
 
@@ -98,7 +98,7 @@ const About = () => {
                     <p
                         className="text-gray-600 mt-5 leading-6 sm:leading-7 text-sm sm:text-[15px] max-w-2xl "
                     >
-                        UIKey Services specializes in advanced TDL
+                        Uikey Services specializes in advanced TDL
                         development, business automation, web and software
                         solutions, and AI-based digital tools. We help
                         businesses modernize and operate with efficiency.

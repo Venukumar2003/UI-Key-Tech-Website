@@ -118,7 +118,7 @@ const Navbar = () => {
             />
 
             <h2 className="text-lg sm:text-xl font-bold text-purple-700">
-              UIkey Services
+              Uikey Services
             </h2>
           </div>
 

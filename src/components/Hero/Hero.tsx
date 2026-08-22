@@ -117,7 +117,7 @@ const Hero = () => {
                     >
 
                         <h2 className="mt-4 text-2xl font-bold text-purple-600 bg-white p-3 rounded-2xl">
-                            UIkey Services
+                            Uikey Services
                         </h2>
 
                         <p className="text-white mt-1">

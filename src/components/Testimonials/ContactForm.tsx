@@ -11,7 +11,7 @@ const [message,setMessage] = useState("");
 
 
   return (
-    <div id= "contact" className="w-full max-w-7xl mx-auto bg-white rounded-3xl shadow-lg border border-gray-100 p-5 sm:p-6 lg:p-8 m-10">
+    <div id= "contact" className="w-full max-w-2xl mx-auto bg-white rounded-3xl shadow-lg border border-gray-100 p-5 sm:p-6 lg:p-8 m-10">
 
 
       <div className="flex justify-between items-start">
@@ -46,7 +46,7 @@ const [message,setMessage] = useState("");
 
 
 
-        <div className="grid md:grid-cols-2 gap-3">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-3">
 
           <input
             type="text"
